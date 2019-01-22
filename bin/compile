@@ -7,7 +7,7 @@ indent() {
 echo "-----> Installing pngquant"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-PNGQUANT_DOWNLOAD_URL="https://github.com/jayzes/heroku-buildpack-pngquant/releases/download/v2.0.1/pngquant"
+PNGQUANT_DOWNLOAD_URL="https://github.com/platogo/heroku-buildpack-pngquant/releases/download/2.12.2/pngquant"
 
 echo "PNGQUANT_DOWNLOAD_URL = " $PNGQUANT_DOWNLOAD_URL | indent
 
